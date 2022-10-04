@@ -15,7 +15,7 @@ const Navbar = ({ nombreUsuario, apellidoUsuario, children }) => {
     return (
       <header style={styles.container}>
         <img style={styles.imagenes} src={Logo} alt="tienda online" />
-        <h1>BANDIDAS INTIMATES {nombreUsuario}</h1>
+        <h1>BANDIDAS INTIMATES! {nombreUsuario}</h1>
         <nav>
           {
             categorias.map((categoria)=>{
